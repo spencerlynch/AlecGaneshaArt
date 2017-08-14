@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<title>Alec Ganesha</title>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Quicksand|Rock+Salt" rel="stylesheet" type="text/css">
+
+
+<body>
+<!-- !PAGE CONTENT! -->
+<div class="w3-content" style="max-width:1500px">
+
+  <!-- Header -->
+  <header class="w3-container w3-xlarge w3-padding-24">
+    <a href="#" class="w3-left w3-button w3-white">ALEC GANESHA</a>
+    <a href="#about" class="w3-right w3-button w3-white">About</a>
+    <a href="#" class="w3-right w3-button w3-white">Shop
+    </a>
+  </header>
+
+  <!-- Photo Grid -->
+  <div class="w3-row">
+    <div class="w3-half">
+      <!-- kendrick -->
+      <img src="http://gdurl.com/4M8K" style="width:100%">
+      <!-- double elephant -->
+      <img src="http://gdurl.com/DrjC" style="width:100%">
+      <!-- whole buddha -->
+      <img src="http://gdurl.com/Zhjy" style="width:100%">
+    </div>
+
+    <div class="w3-half">
+      <!-- 3 piece buddha -->
+      <img src="http://gdurl.com/zN8S" style="width:100%">
+      <img src="http://gdurl.com/59z3" style="width:100%">
+    </div>
+  </div>
+  
+<!-- End Page Content -->
+</div>
+
+<!-- Footer / About Section -->
+<footer class="w3-light-grey w3-padding-64 w3-center" id="about">
+  <h2>About</h2>
+  <img src="/w3images/boy.jpg" class="w3-image w3-padding-32" width="300" height="300">
+  <form style="margin:auto;width:60%" action="/action_page.php" target="_blank">
+    <p>Alec Sebastian Carrillo-Pariseau is a self-taught visual artist, born in Indianapolis, Indiana. His parents immigrated to Virginia during their childhood, his mother from Laos, and his father from Ecuador. You can say it all started when his mother separated from his father, and moved him and his younger sister to Virginia. He started to draw on his clothes and sell them throughout middle school as a way to cope with these drastic changes in his life. Eventually he moved back to Indiana for his freshmen year of high school for a new start. Things got rough and he moved in with his girlfriend at age of 15 to focus on school. Life goes on; he graduates high school and goes to college at a community school. Everything changed in 2014 when his mom passes away unexpectedly from alcoholism. 
+    <br>
+    Creating for Alec was always an outlet for him growing up dealing with his alcoholic parents. He started to paint to help him cope with the pain and he immediately fell in love. His focus and determination comes from the NEED to be able to provide for his siblings. Alec has so much room to grow and this is only the beginning. </p>
+  <div id="contact">
+    <div class="getInTouch">
+      <h2>Get in touch :</h2>
+        <ul class="list-unstyled">
+                    <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:alecsebastian66@gmail.com">alecsebastian66@gmail.com</a>
+                    </li>
+                </ul>
+                <br>
+                <ul id= "socialMediaBottom" class="list-inline">
+                    <li>
+                        <a href="https://www.facebook.com/AlecGaneshaArt/" class="fa fa-facebook" target="_blank"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/Alec_Ganesha/" class="fa fa-instagram" target="_blank"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.snapchat.com/add/solodolo24" class="fa fa-snapchat" target="_blank"></a>
+                    </li>
+                </ul>
+    </div>
+  </div>
+  <br>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
+ <!-- Smooth scroll function -->
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</body>
+
+</html>
