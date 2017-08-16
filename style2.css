@@ -1,6 +1,7 @@
 html, body {
 	height: 100%;
 }
+
 .heroOpenPage {
 	/*The background image.*/
 	background-image: url("http://gdurl.com/EVAq");
@@ -12,8 +13,9 @@ html, body {
 	background-size: cover;
 
 	/*Full height of the page*/
-	height:100%;
+	height: 100%;
 }
+
 .hero-text {
 	/*Positioning hero text*/
 	
@@ -25,10 +27,10 @@ html, body {
 	color: white;
 	font-size: 75px;
 }
+
 .hero-subtext {
 	font-size: 30px;
 }
-
 
 .hero-button a {
 	/*padding-top: 50px;*/
@@ -36,3 +38,34 @@ html, body {
 	font-size: 100px;
 	text-decoration: none;
 }
+
+.bio_section {
+	height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
