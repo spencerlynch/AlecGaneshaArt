@@ -25,6 +25,7 @@ html, body {
 	left: 50%;
 	transform: translate(-50%, -50%);
 	color: white;
+<<<<<<< HEAD
 	font-size: 55px;
 	font-family: "Raleway", Arial, sans-serif;
 	padding: 4px;
@@ -45,12 +46,27 @@ html, body {
 
 	text-decoration: none;
 	font-size: 18px;
+=======
+	font-size: 75px;
+}
+
+.hero-subtext {
+	font-size: 30px;
+}
+
+.hero-button a {
+	/*padding-top: 50px;*/
+	color: tan;
+	font-size: 100px;
+	text-decoration: none;
+>>>>>>> c9219014462b69e4d3d70d5fd3f5f46e9c46213f
 }
 
 .bio_section {
 	height: 100%;
 }
 
+<<<<<<< HEAD
 @import url(http://weloveiconfonts.com/api/?family=entypo);
 /* entypo */
 [class*="entypo-"]:before {
@@ -106,6 +122,11 @@ ul {
 #sticky-social a[class*="snapchat"],
 #sticky-social a[class*="snapchat"]:hover,
 #sticky-social a[class*="snapchat"] span { background: #A5A5A5; }
+=======
+
+
+
+>>>>>>> c9219014462b69e4d3d70d5fd3f5f46e9c46213f
 
 
 
