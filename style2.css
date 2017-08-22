@@ -39,8 +39,31 @@ html, body {
 	text-decoration: none;
 }
 
-.bio_section {
+.nav_section {
 	height: 100%;
+}
+
+.about_me_description {
+	float: right;
+	width: 30%;
+	right: 15%;
+	top: 50px;
+	bottom: 20%;
+	position: relative;
+
+}
+/*#picture {
+	float: left;
+	width: 200px;
+	height: 200px;
+}*/
+.img-responsive {
+	width: 25%;
+	height: 25%;
+	left: 15%;
+	top: 50px;
+	position: relative;
+	
 }
 
 
