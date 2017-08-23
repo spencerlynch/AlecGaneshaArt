@@ -39,31 +39,21 @@ html, body {
 	text-decoration: none;
 }
 
-.nav_section {
-	height: 100%;
+
+p.about_me_text {
+	position: center;
 }
 
-.about_me_description {
-	float: right;
+#about_me_description {
 	width: 30%;
-	right: 15%;
-	top: 50px;
-	bottom: 20%;
-	position: relative;
-
 }
-/*#picture {
-	float: left;
-	width: 200px;
-	height: 200px;
-}*/
+
+
 .img-responsive {
-	width: 25%;
-	height: 25%;
-	left: 15%;
-	top: 50px;
+	width: 50%;
+	height: 80%;
+	top: 10%;
 	position: relative;
-	
 }
 
 
