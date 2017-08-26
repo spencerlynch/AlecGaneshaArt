@@ -6,5 +6,8 @@ Unconditional Love - IMG_2823.jpg - http://gdurl.com/e35j
 
 iKE - IMG_2873 - http://gdurl.com/bBGXe35j
 
+Ali (standing) - IMG_2834 - http://gdurl.com/T5rV
+
+Ali (fist) - IMG_2872 - http://gdurl.com/2sZw
 
 

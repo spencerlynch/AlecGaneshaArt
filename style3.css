@@ -41,10 +41,20 @@ h1 {
 	font-family: 'Paintstrokes', Arial, sans-serif;
 }
 
-.navbar-brand{
+.navbar-brand {
 	font-family: "Paintstrokes", Arial, sans-serif;
+	display: inline-block;
+	text-align: center;
 }
 
+.navbar-nav {
+    display: inline-block;
+    text-align: center;
+}
+
+#aboutDescription {
+	padding: 20px 50px;
+}
 .carouselPaintings {
 	width:100%;
 }
@@ -63,15 +73,23 @@ h1 {
 	text-decoration: none;
  }
 
- a {
+/* a {
  	color: #686868;
  }
+*/
 
 
+#contact a::before, a::after {
+	 	color: #686868;
 
+}
 
-
-
+footer {
+	background-color: #A3A3A3;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-family: "Quicksand", Arial, sans-serif;
+}
 
 
 
