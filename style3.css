@@ -2,6 +2,11 @@ html, body {
 	height: 100%;
 }
 
+@font-face {
+	font-family: Paintstrokes;
+	src: url('Paintstrokes.otf');
+}
+
 .heroOpenPage {
 	/*The background image.*/
 	background-image: url("http://gdurl.com/EVAq");
@@ -20,6 +25,9 @@ html, body {
 	/*Positioning hero text*/
 	
 	text-align: center;
+	font-family: "Paintstrokes", Arial, sans-serif;
+	text-shadow: -2px 3px 14px black;
+	opacity: 0.70;
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -30,15 +38,34 @@ html, body {
 
 h1 {
 	text-align: center;
-	font-family: "", Arial, sans-serif;
+	font-family: 'Paintstrokes', Arial, sans-serif;
+}
+
+.navbar-brand{
+	font-family: "Paintstrokes", Arial, sans-serif;
+}
+
+.carouselPaintings {
+	width:100%;
+}
+
+.carousel-inner{
+	width:100%;
+	/*changes the height of carousel pictures*/
+	max-height: 600px !important;
 }
 
 
+#contact {
+	text-align: center;
+}
+ #contact a {
+	text-decoration: none;
+ }
 
-
-
-
-
+ a {
+ 	color: #686868;
+ }
 
 
 
