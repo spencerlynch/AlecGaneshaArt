@@ -65,17 +65,34 @@ h1 {
 
 /*Navbar Style*/
 
+
 .navbar-brand {
 	font-family: "Paintstrokes", Arial, sans-serif;
 	display: inline-block;
 	text-align: center;
+	font-size: 20px;
+
 }
 
+.navbar {
+  text-align: center;
+  font-family: 'Coming Soon', Arial !important;
+  font-size: 18px;
+  font-weight: bold;
 
+}
 .navbar-nav {
-    display: inline-block;
-    text-align: center;
+	display: inline-block;
+	float: none !important;
+	margin: 0;
 }
+.navbar-icons {
+	float: right !important;
+}
+
+
+
+
 
 /*About Me Style*/
 
