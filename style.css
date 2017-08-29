@@ -99,6 +99,10 @@ h1 {
 
 /*About Me Style*/
 
+#about {
+	height: 100%;
+}
+
 b {
  	font-size: 22px;
 }
