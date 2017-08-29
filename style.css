@@ -17,6 +17,10 @@ html, body {
 	src: url('Fonts/Reitam.otf');
 }*/
 
+header {
+	height: 100%;
+
+}
 
 .heroOpenPage {
 	/*The background image.*/
@@ -70,24 +74,39 @@ h1 {
 	font-family: 'Paintstrokes', Arial, sans-serif;
 }
 
-/*Navbar Style*/
+.content {
+	position: relative;
 
+}
+/*Navbar Style*/
 
 .navbar-brand {
 	font-family: 'Paintstrokes', Arial, sans-serif;
 	display: inline-block;
 	text-align: center;
 	font-size: 20px;
+}
+/* Note: Try to remove the following lines to see the effect of CSS positioning */
+.affix {
+	top: 0;
+	width: 100%;
+}
 
+.affix + .container-fluid {
+	padding-top: 70px;
 }
 
 .navbar {
-  text-align: center;
-  font-family: 'Coming Soon', Arial !important;
-  font-size: 18px;
-  font-weight: bold;
+	text-align: center;
+	font-family: 'Coming Soon', Arial !important;
+	font-size: 18px;
+	font-weight: bold;
+	z-index: 150;
 
 }
+
+
+
 .navbar-nav {
 	display: inline-block;
 	float: none !important;
@@ -117,9 +136,12 @@ img.aboutPicture {
 }
 
 /*Carousel Style*/
-
+#carousel {
+	padding-top: 50px;
+}
 .carouselPaintings {
 	width:100%;
+	z-index: 90;
 }
 
 .carousel-inner{

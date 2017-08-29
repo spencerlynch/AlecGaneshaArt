@@ -32,8 +32,8 @@
 	<!-- <link rel="icon" type="image/png" href="#"> -->
 </head>
 
-<body>
-
+<body data-spy="scroll" data-target=".navbar" data-offset="765">
+  <header>
 	<div class="heroOpenPage">
 		<div class="inner-border">
 
@@ -47,10 +47,9 @@
 			</div>
 		</div>
 	</div>
-
-
+  </header>
 	<!-- Navbar -->
-	<div class="navbar" id="section2">
+	<div class="navbar" id="section2" data-spy="affix" data-offset="750">
 		<nav class="navbar navbar-default">
 		  <div class="container-fluid so">
 		    <div class="navbar-header">
@@ -94,7 +93,8 @@
 		</nav>
 
 	</div>
-
+  
+  <div class="content">
 	<!-- About Me Section -->
 	<section id="about">
 		<div class="container-fluid" id="about">
@@ -144,11 +144,11 @@
 		    </div>
 
 		    <!-- Left and right controls -->
-		    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+		    <a class="left carousel-control" href="#carousel" data-slide="prev">
 		      <span class="glyphicon glyphicon-chevron-left"></span>
 		      <span class="sr-only">Previous</span>
 		    </a>
-		    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+		    <a class="right carousel-control" href="#carousel" data-slide="next">
 		      <span class="glyphicon glyphicon-chevron-right"></span>
 		      <span class="sr-only">Next</span>
 		    </a>
@@ -173,8 +173,12 @@
                 <li>
                     <a href="https://www.snapchat.com/add/solodolo24" class="fa fa-snapchat" target="_blank" style="font-size: 3.0em"></a>
                 </li>
-            </ul>
+            </ul> <!-- socialMediaBottom -->
+	</div> <!-- contact div -->
+  </div> <!-- content div -->
 
+
+<!-- javascript -->
 <script src="main.js" type="text/javascript" charset="utf-8"></script>
 </body>
 <footer>This site was brought to you by: DS Design. &copy;
