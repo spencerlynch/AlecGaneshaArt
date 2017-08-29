@@ -4,8 +4,15 @@ html, body {
 
 @font-face {
 	font-family: Paintstrokes;
-	src: url('Paintstrokes.otf');
+	src: url('Fonts/Paintstrokes.otf');
+
 }
+
+/*@font-face {
+	font-family: Reitam;
+	src: url('Fonts/Reitam.otf');
+}*/
+
 
 .heroOpenPage {
 	/*The background image.*/
@@ -25,7 +32,7 @@ html, body {
 	/*Positioning hero text*/
 	
 	text-align: center;
-	font-family: "Paintstrokes", Arial, sans-serif;
+	font-family: 'Paintstrokes', Arial, sans-serif;
 	text-shadow: -2px 3px 14px black;
 	opacity: 0.70;
 	position: absolute;
@@ -42,7 +49,7 @@ h1 {
 }
 
 .navbar-brand {
-	font-family: "Paintstrokes", Arial, sans-serif;
+	font-family: 'Paintstrokes', Arial, sans-serif;
 	display: inline-block;
 	text-align: center;
 }
@@ -52,10 +59,15 @@ h1 {
     display: inline-block;
     text-align: center;
 }
+.img-responsive {
+	text-align: center;
+	height: 650px;
+}
 
 #aboutDescription {
 	padding: 20px 50px;
 }
+
 .carouselPaintings {
 	width:100%;
 }
@@ -65,7 +77,6 @@ h1 {
 	/*changes the height of carousel pictures*/
 	max-height: 600px !important;
 }
-
 
 #contact {
 	text-align: center;
