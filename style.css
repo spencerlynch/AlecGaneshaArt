@@ -96,24 +96,35 @@ h1 {
 .navbar-icons {
 	float: right !important;
 }
-.img-responsive {
-	text-align: center;
-	height: 650px;
-}
-
-
-
-
 
 /*About Me Style*/
 
-#aboutDescription {
-	font-family: 'Coming Soon', Arial !important;
-	padding: 20px 50px;
+#about {
+	height: 100%;
 }
 
-img.aboutPicture {
-	 width: 40em;	
+b {
+ 	font-size: 22px;
+}
+
+
+.about2 {
+	font-family: 'Coming Soon', Arial !important;
+	margin: 0 auto;
+  	padding: 10px;
+  	font-size: 18px;
+}
+
+.img-thumbnail {
+	max-height: 600px;
+	max-width: auto;
+}
+@media (min-width: 1200px) {
+  .img-thumbnail {
+	position: relative;
+	top: 20%;
+	left: 20%;
+	}
 }
 
 /*Carousel Style*/
