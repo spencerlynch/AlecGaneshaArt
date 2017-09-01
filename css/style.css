@@ -61,6 +61,10 @@ header {
 	left: 50%;
 	position: absolute;
 	transform: translate(-50%, -50%);
+	text-shadow: -2px 3px 14px black;
+	opacity: 0.70;
+	color: white;
+
 }
 
 .down-button {
@@ -93,7 +97,8 @@ h1 {
 }
 
 .affix + .container-fluid {
-	padding-top: 70px;
+	padding-top: 20px
+
 }
 
 .navbar {
@@ -103,9 +108,13 @@ h1 {
 	font-weight: bold;
 	z-index: 150;
 
+	margin-bottom: 0;
+
 }
 
-
+#section2 {
+	min-height: 70px;
+}
 
 .navbar-nav {
 	display: inline-block;
@@ -146,33 +155,14 @@ b {
 	}
 }
 
-/*Carousel Style*/
-#carousel {
-	padding-top: 50px;
+.wrapper {
+	width: 80%;
+	height: 70%;
 }
-.carouselPaintings {
-	width:100%;
-	z-index: 90;
+.wrapper img {
+	width: 100%;
+	height: auto;
 }
-
-.carousel-inner{
-	width:100%;
-	/*changes the height of carousel pictures*/
-	max-height: 600px !important;
-}
-
-#contact {
-	text-align: center;
-}
- #contact a {
-	text-decoration: none;
- }
-
-/* a {
- 	color: #686868;
- }
-*/
-
 
 #contact a::before, a::after {
 	 	color: #686868;
