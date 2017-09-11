@@ -26,16 +26,13 @@
 	<!-- Cloudflare js -->
   	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 
-<link rel="stylesheet" type="text/css" href="css/slicebox.css" />
-<link rel="stylesheet" type="text/css" href="css/custom.css" />
-<script type="text/javascript" src="js/modernizr.custom.46884.js"></script>
   	
 	<!-- Logo icon -->
 	<!-- <link rel="icon" type="image/png" href="#"> -->
 
 </head>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="765">
+<body>
   <header>
 	<div class="heroOpenPage">
 		<div class="inner-border">
@@ -46,58 +43,37 @@
 			
 			<!-- Cheveron down button -->
 			<div class="hero-button">
-				<a href="#section2"><i class="down-button fa fa-angle-double-down" aria-hidden="true"></i></a>
+				<a href="#navStuff"><i class="down-button fa fa-angle-double-down" aria-hidden="true"></i></a>
 			</div>
 		</div>
 	</div>
   </header>
+<section id=navStuff>
 	<!-- Navbar -->
-	<div class="navbar" id="section2" data-spy="affix" data-offset="750">
-		<nav class="navbar navbar-default">
-		  <div class="container-fluid so">
-		    <div class="navbar-header">
-		      <!-- collapsed navbar button -->
-		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-		      	<span class="icon-bar"></span>
-		      	<span class="icon-bar"></span>
-		      	<span class="icon-bar"></span>
-		      </button>
-
-		      <a class="navbar-brand" href="#">Alec Ganesha</a>
-		    </div>
-		    <!-- Subheadings -->
-		    <div class="collapse navbar-collapse" id="myNavbar">
-			    <ul class="nav navbar-nav navbar-main">
-			      <li><a href="#about">About</a></li>
-			      <li class="dropdown">
-		        	<a class="dropdown-toggle" data-toggle="dropdown" href="#">Paintings
-		        	<span class="caret"></span></a>
-		        	<ul class="dropdown-menu">
-			          <li><a href="#">Originals for Sale</a></li>
-			          <li><a href="#">Originals Sold</a></li>
-			          <li><a href="#">Commissions Sold</a></li>
-			          <li><a href="#">Donations</a></li>
-			        </ul>
-		      	  </li>
-			      <li><a href="#">The Process</a></li>
-			      <li><a href="#contact">Contact</a></li>
-			    </ul>
-			    <ul class="nav navbar-nav navbar-icons">
-			      <!-- Facebook icon -->
-			      <li><a class="fa fa-facebook-square" aria-hidden="true" href="https://www.facebook.com/alecganeshaart/" target="_blank" style="font-size: 1.5em"></a></li>
-			      <!-- Instagram icon -->
-			      <li><a class= "fa fa-instagram"  aria-hidden="true" href="https://www.instagram.com/alec_ganesha/" target="_blank" style="font-size: 1.5em"></a></li>
-			      <!-- Snapchat icon -->
-			      <li><a class="fa fa-snapchat" aria-hidden="true" href="https://www.snapchat.com/add/solodolo24" target="_blank" style="font-size: 1.5em"></a></li>
-			      <li><a class="fa fa-envelope" aria-hidden="true" href="#contact" style="font-size: 1.5em"></a></li>
-			    </ul>
-			</div>
-		  </div>
-		</nav>
-
-	</div>
+	<nav class="cf-nav navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header navbar-left">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">ALEC GANESHA</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+          </ul>
+          <ul class="nav navbar-nav navbar-center">
+            <li><a href="#about">About</a></li>
+            <li><a href="#paintings">Paintings</a></li>
+            <li><a href="#process">The Process</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
   
-  <div class="content">
 	<!-- About Me Section -->
 	<section id="about">
 		<div class="container-fluid col-lg-12" id="about">
@@ -118,53 +94,15 @@
 			</div>
 		</div>
 	</section>
-
-
-
-	<div id="sliced" class="wrapper">
-
-				<ul id="sb-slider" class="sb-slider">
-					<li>
-						<img src="http://gdurl.com/bBGX" alt="iKE"/>
-						<div class="sb-description">
-							<h3>iKE</h3>
-						</div>
-					</li>
-					<li>
-						<img src="http://gdurl.com/bvXf" alt="emotionalSpace"/>
-						<div class="sb-description">
-							<h3>Emotional Space</h3>
-						</div>
-					</li>
-					<li>
-						<img src="http://gdurl.com/wqoS" alt="unconditionalLove"/>
-						<div class="sb-description">
-							<h3>Unconditional Love</h3>
-						</div>
-					</li>
-					<li>
-						<img src="http://gdurl.com/WEnp" alt="loveWithoutLimit"/>
-						<div class="sb-description">
-							<h3>Love Without Limit</h3>
-						</div>
-					</li>
-					
-				</ul>
-
-				<div id="shadow" class="shadow"></div>
-
-				<div id="nav-arrows" class="nav-arrows">
-					<a href="#">Next</a>
-					<a href="#">Previous</a>
-				</div>
-
-			</div><!-- /wrapper -->
+</section>
+	<!-- Paintings page -->
+	<div id=paintings>Carousel/slicebox goes here</div>
 
 	<!-- Contact Page -->
 	<div class="container-fluid" id="contact">
 		<h1>Contact Alec</h1>
 			<ul class="list-unstyled" id="sb-slider">
-                <li><i class="fa fa-envelope-o fa-fw" style="font-size: 3.0em"></i><a href="mailto:alecsebastian66@gmail.com">ALECSEBASTIAN@gmail.com</a>
+                <li><a href="mailto:alecsebastian66@gmail.com" class="fa fa-envelope-o fa-fw" style="font-size: 3.0em"></a>
                     </li>
             </ul>
                 <br>
@@ -178,67 +116,22 @@
                 <li>
                     <a href="https://www.snapchat.com/add/solodolo24" class="fa fa-snapchat" target="_blank" style="font-size: 3.0em"></a>
                 </li>
+                <li>
+                	<a href="https://www.paypal.me/alecganesha" class="fa fa-paypal" target="_blank" style="font-size: 3.0em"></a>
+
+                </li>
             </ul> <!-- socialMediaBottom -->
 	</div> <!-- contact div -->
   </div> <!-- content div -->
 
-
+<footer>This site was brought to you by Pearled Designs &copy;
+Alec Ganesha</footer>
 <!-- javascript -->
 <script src="js/main.js" type="text/javascript" charset="utf-8"></script>
 
-		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-		<script type="text/javascript" src="js/jquery.slicebox.js"></script>
-		<script type="text/javascript">
-			$(function() {
-				
-				var Page = (function() {
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script type="text/javascript"></script>
 
-					var $navArrows = $( '#nav-arrows' ).hide(),
-						$shadow = $( '#shadow' ).hide(),
-						slicebox = $( '#sb-slider' ).slicebox( {
-							onReady : function() {
-
-								$navArrows.show();
-								$shadow.show();
-
-							},
-							orientation : 'r',
-							cuboidsRandom : true
-						} ),
-						
-						init = function() {
-
-							initEvents();
-							
-						},
-						initEvents = function() {
-
-							// add navigation events
-							$navArrows.children( ':first' ).on( 'click', function() {
-
-								slicebox.next();
-								return false;
-
-							} );
-
-							$navArrows.children( ':last' ).on( 'click', function() {
-								
-								slicebox.previous();
-								return false;
-
-							} );
-
-						};
-
-						return { init : init };
-
-				})();
-
-				Page.init();
-
-			});
-		</script>
 </body>
-<footer>This site was brought to you by: DS Design. &copy;
-Alec Ganesha</footer>
+
 </html>
