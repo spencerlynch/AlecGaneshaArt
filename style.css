@@ -1,0 +1,182 @@
+
+@font-face {
+	font-family: Paintstrokes;
+	src: url('Fonts/Paintstrokes.otf');
+
+}
+@import url('https://fonts.googleapis.com/css?family=Coming+Soon');
+
+html, body {
+	height: 100%;
+}
+
+/*Hero Page Style*/
+
+/*@font-face {
+	font-family: Reitam;
+	src: url('Fonts/Reitam.otf');
+}*/
+
+header {
+	height: 100%;
+
+}
+
+.heroOpenPage {
+	/*The background image.*/
+	background-image: url("http://gdurl.com/EVAq");
+
+	/*Centering and scaling the background image*/
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	height: 100%;
+	border: 25px solid black;
+}
+/*Adding white outline to hero page*/
+.inner-border {
+	height: 100%;
+	border: 2px solid white;
+}
+
+.hero-text {
+	/*Positioning hero text*/
+	
+	text-align: center;
+	font-family: 'Paintstrokes', Arial, sans-serif;
+	text-shadow: -2px 3px 14px black;
+	opacity: 0.70;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	font-size: 78px;
+}
+
+.hero-button {
+	top: 70%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+}
+
+.down-button {
+	color: white;
+	font-size: 100px;
+}
+
+
+h1 {
+	text-align: center;
+	font-family: 'Paintstrokes', Arial, sans-serif;
+}
+
+.content {
+	position: relative;
+
+}
+/*Navbar Style*/
+
+.navbar-brand {
+	font-family: 'Paintstrokes', Arial, sans-serif;
+	display: inline-block;
+	text-align: center;
+	font-size: 20px;
+}
+/* Note: Try to remove the following lines to see the effect of CSS positioning */
+.affix {
+	top: 0;
+	width: 100%;
+}
+
+.affix + .container-fluid {
+	padding-top: 70px;
+}
+
+.navbar {
+	text-align: center;
+	font-family: 'Coming Soon', Arial !important;
+	font-size: 18px;
+	font-weight: bold;
+	z-index: 150;
+
+}
+
+
+
+.navbar-nav {
+	display: inline-block;
+	float: none !important;
+	margin: 0;
+}
+.navbar-icons {
+	float: right !important;
+}
+.img-responsive {
+	text-align: center;
+	height: 650px;
+}
+
+
+
+
+
+/*About Me Style*/
+
+#aboutDescription {
+	font-family: 'Coming Soon', Arial !important;
+	padding: 20px 50px;
+}
+
+img.aboutPicture {
+	 width: 40em;	
+}
+
+/*Carousel Style*/
+#carousel {
+	padding-top: 50px;
+}
+.carouselPaintings {
+	width:100%;
+	z-index: 90;
+}
+
+.carousel-inner{
+	width:100%;
+	/*changes the height of carousel pictures*/
+	max-height: 600px !important;
+}
+
+#contact {
+	text-align: center;
+}
+ #contact a {
+	text-decoration: none;
+ }
+
+/* a {
+ 	color: #686868;
+ }
+*/
+
+
+#contact a::before, a::after {
+	 	color: #686868;
+
+}
+
+footer {
+	font-family: 'Coming Soon', Arial !important;
+	background-color: #A3A3A3;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+
+
+
+
+
