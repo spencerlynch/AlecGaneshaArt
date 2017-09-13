@@ -19,7 +19,83 @@ html, body {
 
 header {
 	height: 100%;
+}
 
+#navStuff {
+	position: relative;
+}
+
+/*Navbar Style*/
+.cf-nav{
+    background: #F9F9F9;   /* to change the color */
+    border: 0px;
+    border-radius: 0px;
+    height:50px;       /* to change the height */
+    box-shadow: 0 2px 9px -6px #999;
+	position: fixed;
+	width: 100%;
+}
+
+/* Brand Settings  */
+.cf-nav .navbar-brand{
+    color: #000000;
+    font-family: 'Paintstrokes', Arial, sans-serif;
+    font-weight: 350;
+    letter-spacing: 5px;
+    float: left;
+}
+
+/* Link Settings  */
+.cf-nav .navbar-nav {
+	margin-top: 0;
+	display: inline-block;
+	float: none !important;
+}
+.cf-nav .navbar-nav li a{
+	font-family: 'Coming Soon', Arial !important;
+    color: #333333;
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+}
+.cf-nav .navbar-nav li a:hover{
+    color:#333333;
+}
+.cf-nav .navbar-nav li a:before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+
+}
+.cf-nav .navbar-nav li a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+.cf-nav .navbar-toggle {
+
+	font-family: 'Coming Soon', Arial !important;
+    color: #333333;
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 8px; 
+    position: relative; 
+    max-width: 50px; 
+}
+
+.cf-nav .navbar-icons {
+	float: right !important;
 }
 
 .heroOpenPage {
@@ -31,9 +107,10 @@ header {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-
 	height: 100%;
 	border: 25px solid black;
+	border-top: 75px solid black;
+
 }
 /*Adding white outline to hero page*/
 .inner-border {
@@ -78,97 +155,29 @@ h1 {
 	font-family: 'Paintstrokes', Arial, sans-serif;
 }
 
-#navStuff {
-	position: relative;
-}
-/*Navbar Style*/
-.cf-nav{
-    background: #F9F9F9;   /* to change the color */
-    border: 0px;
-    border-radius: 0px;
-    height:50px;       /* to change the height */
-    box-shadow: 0 2px 9px -6px #999;
-	position: fixed;
-}
-
-/* Brand Settings  */
-.cf-nav .navbar-brand{
-    color: #000000;
-    font-family: 'Paintstrokes', Arial, sans-serif;
-    font-weight: 350;
-    letter-spacing: 5px;
-    float: left;
-}
-
-/* Link Settings  */
-.cf-nav .navbar-nav li a{
-	font-family: 'Coming Soon', Arial !important;
-    color: #333333;
-    font-size: 13px;
-    font-weight: 600;
-    text-decoration: none;
-    text-transform: uppercase;
-    text-align: center;
-}
-.cf-nav .navbar-nav li a:hover{
-    color:#333333;
-
-}
-.cf-nav .navbar-nav li a:before{
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  background-color: #000;
-  visibility: hidden;
-  -webkit-transform: scaleX(0);
-  transform: scaleX(0);
-  -webkit-transition: all 0.3s ease-in-out 0s;
-  transition: all 0.3s ease-in-out 0s;
-
-}
-.cf-nav .navbar-nav li a:hover:before {
-  visibility: visible;
-  -webkit-transform: scaleX(1);
-  transform: scaleX(1);
-}
-.cf-nav .navbar-toggle {
-
-	font-family: 'Coming Soon', Arial !important;
-    color: #333333;
-    font-size: 13px;
-    font-weight: 600;
-    margin-top: 32px; 
-    position: relative;  
-}
-
-.container {
-	line-height: 1;
-}
 /*About Me Style*/
 
 #about {
-	padding-top: 5px;
 	height: 70%;
-	position: relative;
 }
 
 #aboutPicture {
+	width: 40em;
 	padding-top: 15px;
 	padding-left: 15px;
+	text-align: center;
 }
 b {
  	font-size: 22px;
 }
 
 
-.about2 {
+#aboutDescription {
 	font-family: 'Coming Soon', Arial !important;
 	margin: 0 auto;
   	padding: 10px;
   	font-size: 18px;
+  	position: relative;
 }
 
 .img-thumbnail {
@@ -191,16 +200,10 @@ b {
 	height: 250px;
 }
 
-iframe {
-	position: relative;
-
-}
-
 #contact a::before, a::after {
 	color: #686868;
 	text-decoration: none;
 	text-align: center;
-	position: relative;
 
 }
 
@@ -209,7 +212,6 @@ footer {
 	background-color: #A3A3A3;
 	padding-top: 20px;
 	padding-bottom: 20px;
-	position: relative;
 }
 
 
