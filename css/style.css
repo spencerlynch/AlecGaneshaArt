@@ -159,14 +159,16 @@ h1 {
 
 #about {
 	height: 70%;
+	margin: auto;
 }
 
 #aboutPicture {
 	width: 40em;
 	padding-top: 15px;
-	padding-left: 15px;
+	margin: 0 auto;
 	text-align: center;
 }
+
 b {
  	font-size: 22px;
 }
@@ -177,13 +179,16 @@ b {
 	margin: 0 auto;
   	padding: 10px;
   	font-size: 18px;
+  	text-align: center;
   	position: relative;
 }
 
 .img-thumbnail {
 	max-height: 600px;
-	max-width: auto;
+	max-width: 240px;
+	text-align: center;
 }
+
 @media (min-width: 1200px) {
   .img-thumbnail {
 	position: relative;
@@ -191,14 +196,17 @@ b {
 	left: 20%;
 	}
 }
+
 .wrapper {
 	height: 100px;
 	max-width: 100%;
 }
+
 .wrapper, img {
 	width: 250px;
 	height: 250px;
 }
+
 
 #contact a::before, a::after {
 	color: #686868;
