@@ -7,7 +7,6 @@
 	<meta charset="UTF-8">    
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-		
 	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Coming+Soon" rel="stylesheet">
 	<!-- FontAwesome CDN -->
@@ -23,9 +22,11 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<!-- Main Stylesheet link  -->
 	<link rel="stylesheet" href="css/style.css">
+	<!-- Painting.css stylesheet -->
+	<link rel="stylesheet" href="css/paintings.css">
 	<!-- Cloudflare js -->
   	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-  	
+
 	<!-- Logo icon -->
 	<!-- <link rel="icon" type="image/png" href="#"> -->
 </head>
@@ -34,32 +35,94 @@
 	<header>
 		<section id=navStuff>
 			<nav class="cf-nav navbar-default navbar-fixed-top">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
+				
 				<a class="navbar-brand" href="index.html">ALEC GANESHA</a>
-				<div id="navbar" class="navabr-collapse collapse">
-					<ul class="nav navbar-nav navbar-center">
-						<li>
-							<a href="">For Sale</a>
-						</li>
-						<li>
-							<a href="">Originals</a>
-						</li>
-						<li>
-							<a href="">Commissions</a>
-						</li>
-						<li>
-							<a href="#contact">Contact</a>
-						</li>
-					</ul>
+				<div id="navbar">
+					  <ul class="nav navbar-nav navbar-icons">
+			      <!-- Facebook icon -->
+			      <li><a class="fa fa-facebook-square" aria-hidden="true" href="https://www.facebook.com/Sebastian2492" target="_blank" style="font-size: 1.5em"></a></li>
+			      <!-- Instagram icon -->
+			      <li><a class= "fa fa-instagram"  aria-hidden="true" href="https://www.instagram.com/alec_ganesha/" target="_blank" style="font-size: 1.5em"></a></li>
+			      <!-- Snapchat icon -->
+			      <li><a class="fa fa-snapchat" aria-hidden="true" href="https://www.snapchat.com/add/solodolo24" target="_blank" style="font-size: 1.5em"></a></li>
+			      <li><a class="fa fa-envelope" aria-hidden="true" href="#contact" style="font-size: 1.5em"></a></li>
+			    </ul>
+				</div>
 			</nav>
 			
 		</section>
 	</header>
+ 
+<!-- Paintings Gallery -->
+ <div class="container">
+        <div class="row">
+        <div class="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <h1 class="gallery-title">Gallery</h1>
+        </div>
+
+        <div class="btn-group" role="group" aria-label="Painting Filters" align="center">
+            <button class="btn btn-secondary filter-button" data-filter="all">All</button>
+            <button class="btn btn-secondary filter-button" data-filter="forSale">For Sale</button>
+            <button class="btn btn-secondary filter-button" data-filter="commission">Commissions</button>
+            <button class="btn btn-secondary filter-button" data-filter="originals">Originals</button>
+            <button class="btn btn-secondary filter-button" href="#">Prints</button>
+        </div>
+        <br/>
+
+
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter all">
+                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter forSale">
+                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter commission">
+                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter originals">
+                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter prints">
+                <img src="" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
+                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray">
+                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
+                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
+                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
+                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray">
+                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
+                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+            </div>
+        </div>
+    </div>
+</section>
+
+
 <!-- javascript -->
 <script src="js/main.js" type="text/javascript" charset="utf-8"></script>
 
