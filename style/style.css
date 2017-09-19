@@ -1,7 +1,7 @@
 
 @font-face {
 	font-family: Paintstrokes;
-	src: url('Fonts/Paintstrokes.otf');
+	src: url('fonts/paintstrokes.otf');
 
 }
 @import url('https://fonts.googleapis.com/css?family=Coming+Soon');
@@ -12,10 +12,10 @@ html, body {
 
 /*Hero Page Style*/
 
-/*@font-face {
+@font-face {
 	font-family: Reitam;
-	src: url('Fonts/Reitam.otf');
-}*/
+	src: url('fonts/reitam.otf');
+}
 
 header {
 	height: 100%;
