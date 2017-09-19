@@ -8,6 +8,13 @@
 
 html, body {
 	height: 100%;
+	
+	background-image: url('http://gdurl.com/QtzdG');
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
 }
 
 /*Hero Page Style*/
@@ -28,6 +35,7 @@ header {
 /*Navbar Style*/
 .cf-nav{
     background: #F9F9F9;   /* to change the color */
+    opacity: 0.80; /* navbar opacity */
     border: 0px;
     border-radius: 0px;
     height:50px;       /* to change the height */
@@ -61,7 +69,7 @@ header {
     text-align: center;
 }
 .cf-nav .navbar-nav li a:hover{
-    color:#333333;
+    color:#A5A5A5;
 }
 .cf-nav .navbar-nav li a:before{
   content: "";
@@ -90,13 +98,11 @@ header {
     font-size: 13px;
     font-weight: 600;
     margin-top: 8px; 
-    position: relative; 
-    max-width: 50px; 
-}
-
+    position: relative;
+} 
 .cf-nav .navbar-icons {
 	float: right !important;
-}
+	}
 
 .heroOpenPage {
 	/*The background image.*/
@@ -108,8 +114,8 @@ header {
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 100%;
-	border: 25px solid black;
-	border-top: 75px solid black;
+	margin: 75px;
+	margin-top: 50px;
 
 }
 /*Adding white outline to hero page*/
@@ -160,7 +166,10 @@ h1 {
 #about {
 	height: 70%;
 	margin: auto;
-	padding-top: 20px;
+/*	padding-top: 20px;
+*/	background-color: rgba(238, 238, 238, 0.8);
+
+
 }
 
 #aboutPicture {
@@ -208,11 +217,19 @@ b {
 	height: 250px;
 }
 
+#process {
+	background-color: rgba(238, 238, 238, 0.8);
+	padding: 0;
+
+}
+
 .socialMediaBottom {
-	background-color: rgba(#fff, .8);
 	max-width: 27rem;
 	margin: 0 auto;
 	padding: 1rem 2rem;
+
+	background-color: rgba(238, 238, 238, 0.8);
+
 }
 
 /*.socialMediaBottom p {
@@ -240,7 +257,6 @@ footer {
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
-
 
 
 
