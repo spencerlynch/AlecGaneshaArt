@@ -17,12 +17,6 @@ html, body {
 
 }
 
-/*Hero Page Style*/
-
-/*@font-face {
-	font-family: Reitam;
-	src: url('Fonts/Reitam.otf');
-}*/
 
 header {
 	height: 100%;
@@ -119,6 +113,7 @@ header {
 
 }
 /*Adding white outline to hero page*/
+
 .inner-border {
 	height: 100%;
 	border: 2px solid white;
@@ -161,13 +156,12 @@ h1 {
 	font-family: 'Paintstrokes', Arial, sans-serif;
 }
 
-/*About Me Style*/
+/*About Me*/
 
 #about {
 	height: 70%;
 	margin: auto;
-/*	padding-top: 20px;
-*/	background-color: rgba(238, 238, 238, 0.8);
+	background-color: rgba(238, 238, 238, 0.8);
 
 
 }
@@ -178,12 +172,6 @@ h1 {
 	margin: 0 auto;
 	text-align: center;
 }
-
-b {
- 	font-size: 22px;
-}
-
-
 #aboutDescription {
 	font-family: 'Coming Soon', Arial !important;
 	margin: 0 auto;
@@ -207,56 +195,14 @@ b {
 	}
 }
 
-.wrapper {
-	height: 100px;
-	max-width: 100%;
-}
-
-.wrapper, img {
-	width: 250px;
-	height: 250px;
-}
-
 #process {
 	background-color: rgba(238, 238, 238, 0.8);
 	padding: 0;
 
 }
 
-.socialMediaBottom {
-	max-width: 27rem;
-	margin: 0 auto;
-	padding: 1rem 2rem;
-
-	background-color: rgba(238, 238, 238, 0.8);
-
-}
-
-/*.socialMediaBottom p {
-	background-color: #eee;
-	line-height: 2rem;
-	margin: 0 0 .5rem;
-	padding-left: 2rem;
-	position: relative;
-}*/
-
-.socialMediaBottom a {
-	background-color: #A3A3A3;
-	color: black;
-	display: block;
-	margin-left: -2rem;
-	padding-left: 2rem;
-	text-decoration: none;
-	transition: all .25s ease-in-out;
-}
 
 
-footer {
-	font-family: 'Coming Soon', Arial !important;
-	background-color: #eee;
-	padding-top: 20px;
-	padding-bottom: 20px;
-}
 
 
 
