@@ -8,15 +8,12 @@
 
 html, body {
 	height: 100%;
-	
 	background-image: url('http://gdurl.com/QtzdG');
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-
 }
-
 
 header {
 	height: 100%;
@@ -29,7 +26,7 @@ header {
 /*Navbar Style*/
 .cf-nav{
     background: #F9F9F9;   /* to change the color */
-    opacity: 0.80; /* navbar opacity */
+    opacity: 0.80;  navbar opacity 
     border: 0px;
     border-radius: 0px;
     height:50px;       /* to change the height */
@@ -158,28 +155,26 @@ h1 {
 
 /*About Me*/
 
-#about {
-	height: 70%;
+/*#about {
+	height: 100%;
 	margin: auto;
-	background-color: rgba(238, 238, 238, 0.8);
+	background-color: white;
+}*/
 
-
-}
-
-#aboutPicture {
+/*#aboutPicture {
 	width: 40em;
 	padding-top: 15px;
 	margin: 0 auto;
 	text-align: center;
-}
-#aboutDescription {
+}*/
+/*#aboutDescription {
 	font-family: 'Coming Soon', Arial !important;
 	margin: 0 auto;
   	padding: 10px;
   	font-size: 18px;
   	text-align: center;
   	position: relative;
-}
+}*/
 
 .img-thumbnail {
 	max-height: 600px;
