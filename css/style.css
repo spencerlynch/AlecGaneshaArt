@@ -155,11 +155,17 @@ h1 {
 
 /*About Me*/
 
-/*#about {
+.about {
 	height: 100%;
-	margin: auto;
-	background-color: white;
-}*/
+	color: white;
+	/*text-shadow: 10px 10px white;*/
+	font-size: 20px;
+}
+
+.about h1 {
+	padding-top: 70px; /*corresponds with nav pixels*/
+	margin: 0px;
+}
 
 /*#aboutPicture {
 	width: 40em;
