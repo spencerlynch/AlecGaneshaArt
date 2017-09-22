@@ -24,4 +24,18 @@ Little Prince - IMG_2873.PNG - http://gdurl.com/4zqU
 
 Big Prince - IMG_2866.PNG - http://gdurl.com/JBIy
 
-Storm trooper - IMG_2818.jpg - http://gdurl.com/Icwj
+Supreme trooper - IMG_2818.jpg - http://gdurl.com/Icwj
+
+Dos Elefantes - IMG_2823.JPG - http://gdurl.com/e35j
+
+Mayweather - IMG_3041.jpg - http://gdurl.com/tacg
+
+Marley - IMG_2958.jpg - http://gdurl.com/OVFp
+
+Marilyn - IMG_2824.jpg - http://gdurl.com/lNBo
+
+Notorious BIG - IMG_2837.jpg - http://gdurl.com/zx61
+
+
+
+
