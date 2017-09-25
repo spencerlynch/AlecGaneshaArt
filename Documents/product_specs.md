@@ -4,8 +4,6 @@ Originals for Sale-
 
 "Emotional Space" 2017 
 Three piece canvas 54x24in
-*Original 1-1 Acrylic Painting
-$600
 
 "Gold Flower" 2017
 Three piece canvas 36x24in
@@ -16,7 +14,7 @@ $600
 "Open Your Eyes" 2017
 24x30in
 Original 1-1 mixed media painting
-(Acrylics, Fabric Paint, 24k Gold Lead, and Magazine Mod Podge)
+(Acrylics, Fabric Paint, 24k Gold Leaf, and Magazine Mod Podge)
 $350
 
 "King X Yeezy" 2017
@@ -58,6 +56,7 @@ $400
 Original 1-1 mixed media painting
 (Acrylics, 24k Gold Leaf, and Fabric Paint)
 $500
+
 "Love Wins" 2016
 24x18in
 Original 1-1 acrylic painting
