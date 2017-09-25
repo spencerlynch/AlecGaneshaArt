@@ -24,6 +24,8 @@
 	<link rel="stylesheet" href="css/style.css">
 	<!-- Painting.css stylesheet -->
 	<link rel="stylesheet" href="css/paintings.css">
+    <!-- Lightbox CSS -->
+    <link rel="stylesheet" href="css/lightbox.css">
 	<!-- Cloudflare js -->
   	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 
@@ -52,116 +54,118 @@
 		</section>
 	</header>
  
-    <!-- Paintings Gallery -->
-    <section class="container-fluid">
-        <div class="row">
-            <div class="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <h1 class="gallery-title">Portfolio</h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="btn-group col-lg-12 col-md-12 col-sm-12 col-xs-12" role="group" aria-label="Painting Filters" align="center">
-                <div class="btn-group-center" align="center">
-                    <button class="btn btn-secondary filter-button" data-filter="all">All</button>
-                    <button class="btn btn-secondary filter-button" data-filter="forSale">For Sale</button>
-                    <button class="btn btn-secondary filter-button" data-filter="commission">Commissions</button>
-                    <button class="btn btn-secondary filter-button" data-filter="original">Originals</button>
-                    <button class="btn btn-secondary filter-button" data-filter="donation">Prints</button>
+        <!-- Paintings Gallery -->
+
+
+            <div class="row">
+                <div class="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <h1 class="gallery-title">Portfolio</h1>
                 </div>
             </div>
-        </div>
-        <br/>
-        <section id="gallery">
+            <div class="row">
+                <div class="btn-group col-lg-12 col-md-12 col-sm-12 col-xs-12" role="group" aria-label="Painting Filters" align="center">
+                    <div class="btn-group-center" align="center">
+                        <button class="btn btn-secondary filter-button" data-filter="all">All</button>
+                        <button class="btn btn-secondary filter-button" data-filter="forSale">For Sale</button>
+                        <button class="btn btn-secondary filter-button" data-filter="commission">Commissions</button>
+                        <button class="btn btn-secondary filter-button" data-filter="original">Originals</button>
+                        <button class="btn btn-secondary filter-button" data-filter="donation">Donations</button>
+                    </div>
+                </div>
+            </div>
+        <section  class="container-fluid" id="gallery">
             <!-- Ali fist -->
-            <a href="#" class="gallery_product filter commission">
+            <a href="http://gdurl.com/2sZw" class="gallery_product filter commission" data-lightbox="bigPicture">
                 <img src="http://gdurl.com/2sZw" class="img-responsive">
             </a>
             <!-- Mayweather -->
-            <a href="#" class="gallery_product filter originals">
+            <a href="http://gdurl.com/tacg" class="gallery_product filter originals" data-lightbox="bigPicture">
                 <img src="http://gdurl.com/tacg" class="img-responsive">
             </a>
 
             <!-- McGregor -->
-            <a href="#" class="gallery_product filter original">
+            <a href="http://gdurl.com/gWJu" class="gallery_product filter original" data-lightbox="bigPicture">
                 <img src="http://gdurl.com/gWJu" class="img-responsive">
             </a>
             <!-- Ali standing -->
-            <a href="#" class="gallery_product filter original">
+            <a href="http://gdurl.com/T5rV" class="gallery_product filter original" data-lightbox="bigPicture">
                 <img src="http://gdurl.com/T5rV" class="img-responsive">
             </a>
             <!-- Emotional Space 3pc -->
-            <a href="#" class="gallery_product filter commission">
+            <a href="http://gdurl.com/Cm87" class="gallery_product filter commission" data-lightbox="bigPicture">
                 <img src="http://gdurl.com/Cm87" class="img-responsive">
             </a>
             <!-- Party panda -->
-            <a href="#" class="gallery_product filter commission">
+            <a href="http://gdurl.com/YYcj" class="gallery_product filter commission" data-lightbox="bigPicture">
                 <img src="http://gdurl.com/YYcj" class="img-responsive">
             </div>
             <!-- DOPE -->
-            <a href="#" class="gallery_product filter original">
+            <a href="http://gdurl.com/CGot" class="gallery_product filter original" data-lightbox="bigPicture">
                 <img src="http://gdurl.com/CGot" class="img-responsive">
             </div>
             <!-- ike -->
-            <a href="#" class="gallery_product filter donation">
+            <a href="http://gdurl.com/bBGX" class="gallery_product filter donation" data-lightbox="bigPicture">
                 <img src="http://gdurl.com/bBGX" class="img-responsive">
             </div>
             <!-- Unconditional Love -->
-            <a href="#" class="gallery_product filter original">
+            <a href="http://gdurl.com/kmaU" class="gallery_product filter original" data-lightbox="bigPicture">
                 <img src="http://gdurl.com/kmaU" class="img-responsive">
             </div>
             <!-- buddha/elephant -->
-            <a href="#" class="gallery_product filter commission">
+            <a href="http://gdurl.com/FlEI" class="gallery_product filter commission" data-lightbox="bigPicture">
                 <img src="http://gdurl.com/FlEI" class="img-responsive">
             </div>
             <!-- lil Prince -->
-            <a href="#" class="gallery_product filter commission">
+            <a href="http://gdurl.com/4zqU" class="gallery_product filter commission" data-lightbox="bigPicture">
                 <img src="http://gdurl.com/4zqU" class="img-responsive">
             </div>
             <!-- big Prince -->
-            <a href="#" class="gallery_product filter commission">
-                <img src="http://gdurl.com/JBIy">
+            <a href="http://gdurl.com/JBIy" class="gallery_product filter commission" data-lightbox="bigPicture">
+                <img src="http://gdurl.com/JBIy" class="img-responsive">
             </div>
             <!-- Supreme trooper-->
-            <a href="#" class="gallery_product filter original">
-                <img src="http://gdurl.com/Icwj">
+            <a href="http://gdurl.com/Icwj" class="gallery_product filter original" data-lightbox="bigPicture">
+                <img src="http://gdurl.com/Icwj" class="img-responsive">
             </div>
             <!-- Marley -->
-            <a href="#" class="gallery_product filter forSale">
-                <img src="http://gdurl.com/OVFp">
+            <a href="http://gdurl.com/OVFp" class="gallery_product filter forSale" data-lightbox="bigPicture">
+                <img src="http://gdurl.com/OVFp" class="img-responsive">
             </div>
             <!-- untitled -->
-            <a href="#" class="gallery_product filter commission">
-                <img src="http://gdurl.com/5nDp">
+            <a href="http://gdurl.com/5nDp" class="gallery_product filter commission" data-lightbox="bigPicture">
+                <img src="http://gdurl.com/5nDp" class="img-responsive">
             </div>
             <!-- Marilyn -->
-            <a href="#" class="gallery_product filter forSale">
-                <img src="http://gdurl.com/lNBo">
+            <a href="http://gdurl.com/lNBo" class="gallery_product filter forSale" data-lightbox="bigPicture">
+                <img src="http://gdurl.com/lNBo" class="img-responsive">
             </div>
             <!-- Notorious BIG -->
-            <a href="#" class="gallery_product filter forSale">
-                <img src="http://gdurl.com/zx61">
+            <a href="http://gdurl.com/zx61" class="gallery_product filter forSale" data-lightbox="bigPicture">
+                <img src="http://gdurl.com/zx61" class="img-responsive">
             </div>
             <!-- Bowie -->
-            <a href="#" class="gallery_product filter donation">
-                <img src="http://gdurl.com/5r7S">
+            <a href="http://gdurl.com/5r7S" class="gallery_product filter donation" data-lightbox="bigPicture">
+                <img src="http://gdurl.com/5r7S" class="img-responsive">
             </div>
             <!-- faceless ali -->
-            <a href="#" class="gallery_product filter commission">
-                <img src="http://gdurl.com/UbZX">
+            <a href="http://gdurl.com/UbZX" class="gallery_product filter commission" data-lightbox="bigPicture">
+                <img src="http://gdurl.com/UbZX" class="img-responsive">
             </div>
             <!-- Peace Marley -->
-            <a href="#" class="gallery_product filter commission">
-                <img src="http://gdurl.com/dZTu">
+            <a href="http://gdurl.com/dZTu" class="gallery_product filter commission" data-lightbox="bigPicture">
+                <img src="http://gdurl.com/dZTu" class="img-responsive">
             </div>
             <!-- one in front of gun -->
-            <a href="#" class="gallery_product filter commission">
-                <img src="http://gdurl.com/R2di">
+            <a href="http://gdurl.com/R2di" class="gallery_product filter commission" data-lightbox="bigPicture">
+                <img src="http://gdurl.com/R2di" class="img-responsive">
             </div>
         </div>
     </section>
 
 <!-- javascript -->
 <script src="js/main.js" type="text/javascript" charset="utf-8"></script>
+<!-- lightbox.js -->
+<script src="js/lightbox.min.js" type="text/javascript" charset="utf-8"></script>
 
 </body>
 
