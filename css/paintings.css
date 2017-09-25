@@ -1,3 +1,5 @@
+
+
 header {
     height: 50px;
 
@@ -8,8 +10,13 @@ header {
     text-decoration: none !important;
     display: inline-block;
 }
-.gallery-title
-{
+
+.container-fluid {
+    background-color: rgba(238, 238, 238, 0.8);
+ 
+}
+
+.gallery-title {
     font-size: 36px;
     color: #A5A5A5;
     text-align: center;
@@ -24,8 +31,7 @@ header {
     height: 45px;
     border-bottom: 1px solid #5e5e5e;
 }
-.filter-button
-{
+.filter-button {
     font-size: 18px;
     border: 1px solid #A5A5A5;
     border-radius: 5px;
@@ -34,8 +40,7 @@ header {
     margin-bottom: 30px;
 
 }
-.filter-button:hover
-{
+.filter-button:hover {
     font-size: 18px;
     border: 1px solid #A5A5A5;
     border-radius: 5px;
@@ -50,12 +55,24 @@ header {
     color: white;
 }
 
-.port-image
-{
+.port-image {
     width: 100%;
 }
+#gallery {
+  /* Prevent vertical gaps */
+  line-height: 0;
+   
+  -webkit-column-count: 5;
+  -webkit-column-gap:   0px;
+  -moz-column-count:    5;
+  -moz-column-gap:      0px;
+  column-count:         5;
+  column-gap:           0px; 
 
-.gallery_product
-{
-    margin-bottom: 30px;
+}
+
+#gallery img {
+  /* Just in case there are inline attributes */
+  width: 100% !important;
+  height: auto !important;
 }

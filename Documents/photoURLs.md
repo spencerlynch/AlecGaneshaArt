@@ -36,6 +36,8 @@ Marilyn - IMG_2824.jpg - http://gdurl.com/lNBo
 
 Notorious BIG - IMG_2837.jpg - http://gdurl.com/zx61
 
+Bowie - IMG_2838.jpg - http://gdurl.com/5r7S
 
+Faceless Ali - IMG_2843.PNG - http://gdurl.com/UbZX
 
-
+One in front of gun - IMG_2845.PNG - http://gdurl.com/R2di
