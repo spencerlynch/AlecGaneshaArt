@@ -1,20 +1,30 @@
+
+
 header {
     height: 50px;
 
 }
 
 .navbar-icons {
-    float: right !important;
     text-decoration: none !important;
-    display: inline-block;
 }
-.gallery-title
-{
+
+.container-fluid {
+    background-color: rgba(238, 238, 238, 0.8);
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.gallery-title {
     font-size: 36px;
-    color: #A5A5A5;
+    color: black;
     text-align: center;
     font-weight: 500;
     margin-bottom: 70px;
+    background-color: rgba(238, 238, 238, 0.8);
+/*    background-image: url("http://gdurl.com/gz-U");
+    background-size: cover;
+    line-height: 70px;*/
 }
 .gallery-title:after {
     content: "";
@@ -22,20 +32,17 @@ header {
     width: 7.5%;
     left: 46.5%;
     height: 45px;
-    border-bottom: 1px solid #5e5e5e;
 }
-.filter-button
-{
+.filter-button {
     font-size: 18px;
     border: 1px solid #A5A5A5;
     border-radius: 5px;
     text-align: center;
-    color: #A5A5A5;
+    color: black;
     margin-bottom: 30px;
 
 }
-.filter-button:hover
-{
+.filter-button:hover {
     font-size: 18px;
     border: 1px solid #A5A5A5;
     border-radius: 5px;
@@ -50,12 +57,55 @@ header {
     color: white;
 }
 
-.port-image
-{
+.port-image {
     width: 100%;
 }
+#gallery {
+  /* Prevent vertical gaps */
+  line-height: 0;
+   
+  -webkit-column-count: 4;
+  -webkit-column-gap:   0px;
+  -moz-column-count:    4;
+  -moz-column-gap:      0px;
+  column-count:         4;
+  column-gap:           0px; 
 
-.gallery_product
-{
-    margin-bottom: 30px;
 }
+
+#gallery img {
+  /* Just in case there are inline attributes */
+  width: 100% !important;
+  height: auto !important;
+}
+
+@media (max-width: 1200px) {
+  #gallery {
+  -moz-column-count:    3;
+  -webkit-column-count: 3;
+  column-count:         3;
+  }
+}
+@media (max-width: 1000px) {
+  #gallery {
+  -moz-column-count:    3;
+  -webkit-column-count: 3;
+  column-count:         3;
+  }
+}
+@media (max-width: 800px) {
+  #gallery {
+  -moz-column-count:    2;
+  -webkit-column-count: 2;
+  column-count:         2;
+  }
+}
+@media (max-width: 400px) {
+  #gallery {
+  -moz-column-count:    1;
+  -webkit-column-count: 1;
+  column-count:         1;
+  }
+}
+
+/* Lightbox */

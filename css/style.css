@@ -1,7 +1,7 @@
 
 @font-face {
 	font-family: Paintstrokes;
-	src: url('css/fonts/Paintstrokes.otf');
+	src: url('fonts/Paintstrokes.otf');
 
 }
 @import url('https://fonts.googleapis.com/css?family=Coming+Soon');
@@ -166,8 +166,8 @@ h1 {
 #about {
 	height: 70%;
 	margin: auto;
-/*	padding-top: 20px;
-*/	background-color: rgba(238, 238, 238, 0.8);
+	padding-top: 20px;
+	background-color: rgba(238, 238, 238, 0.8);
 
 
 }

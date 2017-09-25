@@ -30,21 +30,7 @@ $(document).ready(function(){
         }
     });
 });
-
-// $(window).scroll(
-//     {
-//         previousTop: 0
-//     }, 
-//     function () {
-//     var currentTop = $(window).scrollTop();
-//     if (currentTop < this.previousTop) {
-//         $(".cf-nav").show();
-//     } else {
-//         $(".cf-nav").hide();
-//     }
-//     this.previousTop = currentTop;
-// });
-
+//Function for data filter on paintings.html
 $(document).ready(function(){
 
     $(".filter-button").click(function(){
@@ -71,3 +57,8 @@ $(this).removeClass("active");
 $(this).addClass("active");
 
 });
+
+
+
+
+
