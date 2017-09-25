@@ -26,7 +26,7 @@ header {
 /*Navbar Style*/
 .cf-nav{
     background: #F9F9F9;   /* to change the color */
-    opacity: 0.80;  navbar opacity 
+    opacity: 0.80;  /*navbar opacity*/ 
     border: 0px;
     border-radius: 0px;
     height:50px;       /* to change the height */
@@ -157,14 +157,27 @@ h1 {
 
 .about {
 	height: 100%;
-	color: white;
+	color: 	white;
+	background: rgb(54, 25, 25); /* Fall-back for browsers that don't
+                                    support rgba */
+    background: rgba(54, 25, 25, .5);
+
 	/*text-shadow: 10px 10px white;*/
 	font-size: 20px;
+	margin-left: 75px;
+	margin-right: 75px;
+	text-align: center;
+	font-family: 'Coming Soon', Arial !important;
+	font-weight: 2;
 }
 
 .about h1 {
 	padding-top: 70px; /*corresponds with nav pixels*/
+	padding-bottom: 50px;
 	margin: 0px;
+	font-size: 72px;
+	text-align: center;
+	font-family: 'Paintstrokes', Arial, sans-serif;
 }
 
 /*#aboutPicture {
