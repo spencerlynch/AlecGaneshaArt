@@ -153,26 +153,12 @@ h1 {
 	font-family: 'Paintstrokes', Arial, sans-serif;
 }
 
-<<<<<<< HEAD
-/*About Me Style*/
-
-#about {
-	height: 70%;
-	margin: auto;
-	padding-top: 20px;
-	background-color: rgba(238, 238, 238, 0.8);
-=======
 /*About Me*/
->>>>>>> dae
+
 
 .about {
 	height: 100%;
-	color: 	white;
-	background: rgb(54, 25, 25); /* Fall-back for browsers that don't
-                                    support rgba */
-    background: rgba(54, 25, 25, .5);
-
-	/*text-shadow: 10px 10px white;*/
+	width: 75%;
 	font-size: 20px;
 	margin-left: 75px;
 	margin-right: 75px;
@@ -189,21 +175,10 @@ h1 {
 	text-align: center;
 	font-family: 'Paintstrokes', Arial, sans-serif;
 }
+#aboutPicture {
+	text-align: left;
+}
 
-/*#aboutPicture {
-	width: 40em;
-	padding-top: 15px;
-	margin: 0 auto;
-	text-align: center;
-}*/
-/*#aboutDescription {
-	font-family: 'Coming Soon', Arial !important;
-	margin: 0 auto;
-  	padding: 10px;
-  	font-size: 18px;
-  	text-align: center;
-  	position: relative;
-}*/
 
 .img-thumbnail {
 	max-height: 600px;
