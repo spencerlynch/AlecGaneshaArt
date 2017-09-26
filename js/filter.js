@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8e95227234e042be9d3e499c7563d0fa038d7d0f
 //Function for data filter on paintings.html
 $(document).ready(function(){
 
@@ -26,8 +29,11 @@ $(this).removeClass("active");
 $(this).addClass("active");
 
 });
+<<<<<<< HEAD
 
 
 
 
 
+=======
+>>>>>>> 8e95227234e042be9d3e499c7563d0fa038d7d0f
