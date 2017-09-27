@@ -1,4 +1,8 @@
+/*field notes
+class selector- full stop (".")
+ID selector- hash character ("#").
 
+*/
 @font-face {
 	font-family: Paintstrokes;
 	src: url('fonts/Paintstrokes.otf');
@@ -175,7 +179,7 @@ h1 {
 	font-family: 'Paintstrokes', Arial, sans-serif;
 }
 #aboutPicture {
-	text-align: left;
+	text-align: center;
 }
 
 
