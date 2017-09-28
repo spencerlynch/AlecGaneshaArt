@@ -8,7 +8,7 @@
 
 html, body {
 	height: 100%;
-	background-image: url('http://gdurl.com/QtzdG');
+	background-image: url("../websiteImages/IMG_8815.jpg");
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -97,7 +97,7 @@ header {
 
 .heroOpenPage {
 	/*The background image.*/
-	background-image: url("http://gdurl.com/EVAq");
+	background-image: url("../websiteImages/alecHero.jpg");
 
 	/*Centering and scaling the background image*/
 	background-attachment: fixed;
