@@ -18,7 +18,7 @@ Party Panda - IMG_2874.PNG - http://gdurl.com/YYcj
 
 DOPE. - IMG_2870.PNG - http://gdurl.com/CGot
 
-iKE - IMG_2873 - http://gdurl.com/bBGX
+iKE - IMG_2873.PNG - http://gdurl.com/bBGX
 
 Open your Eyes - IMG_2823.jpg - http://gdurl.com/kmaU
 
@@ -30,13 +30,11 @@ Big Prince - IMG_2866.PNG - http://gdurl.com/JBIy
 
 Supreme trooper - IMG_2818.jpg - http://gdurl.com/Icwj
 
-Dos Elefantes - IMG_2823.JPG - http://gdurl.com/e35j
-
-King Kendrick - IMG_2863.PNG - http://gdurl.com/0nAT
-
 Marley - IMG_2958.jpg - http://gdurl.com/OVFp
 
 Purple elephant - IMG_2869.png - http://gdurl.com/5nDp
+
+King Kendrick - IMG_2863.PNG - http://gdurl.com/0nAT
 
 Marilyn - IMG_2824.jpg - http://gdurl.com/lNBo
 
@@ -76,19 +74,19 @@ old McGregor - IMG_2868.PNG - http://gdurl.com/NVfF
 
 Thriller - IMG_2853.PNG - http://gdurl.com/xFWb
 
-Blue buddha - img_2859 - 
+Blue buddha - IMG_2859.PNG - 
 
-Follow your Heart - img_2888 - 
+Follow your Heart - IMG_2888.JPG - 
 
-Dali - img_2876 -
+Dali - IMG_2876.PNG -
 
-Brick oven pizza - img_2877 -
+Brick oven pizza - IMG_2877.PNG -
 
-King of pop - img_3229 -
+King of pop - IMG_3229. -
 
-3pc Blue buddha - img_2840 -
+3pc Blue buddha - IMG_2840.jpg -
 
-Purple elephant - img_2869 - 
+Purple elephant - IMG_2869.PNG - 
 
 
 
