@@ -189,9 +189,10 @@ h1 {
 }
 
 #aboutDescription {
-	/*color: red;
-	font-size: 24px;*/
-	background-color: white;
+	font-size: 24px;
+}
+.bold-text {
+	font-weight: bold;
 }
 
 .img-thumbnail {
