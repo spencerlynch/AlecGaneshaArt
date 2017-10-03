@@ -95,7 +95,7 @@ Demensions-->
 Description-->
 Cost-->
 
-prince1----------
+little prince----------
 Name-->
 Category id--> 3
 Year--> 2017
@@ -108,7 +108,7 @@ Open Your Eyes----------
 Name--> Open Your Eyes
 Category id--> 
 Year--> 2017
-Picture id--> 
+Picture id--> 9
 Demensions--> 
 Description-->
 Cost-->
@@ -116,13 +116,29 @@ Cost-->
 buddha/elephant----------
 Name-->
 Category id--> 
-Year--> 
-Picture id--> 
+Year--> 2017
+Picture id--> 10
 Demensions--> 
 Description-->
 Cost-->
 
+big Prince----------
+Name-->
+Category id--> 3
+Year--> 
+Picture id--> 11
+Demensions--> 
+Description-->
+Cost-->
 
+Supreme trooper----------
+Name-->
+Category id--> 1
+Year--> 
+Picture id--> 12
+Demensions--> 
+Description-->
+Cost-->
 
 
 
