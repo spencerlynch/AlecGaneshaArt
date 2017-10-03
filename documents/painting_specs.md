@@ -140,13 +140,68 @@ Demensions-->
 Description-->
 Cost-->
 
+Marley----------
+Name-->
+Category id--> 
+Year--> 
+Picture id--> 13
+Demensions--> 
+Description-->
+Cost-->
 
+Purple elephant----------
+Name-->
+Category id--> 
+Year--> 
+Picture id--> 14
+Demensions--> 
+Description-->
+Cost-->
 
+Marilyn----------
+Name-->
+Category id--> 
+Year--> 
+Picture id--> 15
+Demensions--> 
+Description-->
+Cost-->
 
+Notorious BIG----------
+Name-->
+Category id--> 1
+Year--> 
+Picture id--> 16
+Demensions--> 
+Description-->
+Cost-->
 
+David Bowie----------
+Name-->
+Category id--> 
+Year--> 
+Picture id--> 17
+Demensions--> 
+Description-->
+Cost-->
 
+faceless ali----------
+Name-->
+Category id--> 
+Year--> 
+Picture id--> 18
+Demensions--> 
+Description-->
+Cost-->
 
-
+Peace Marley----------
+Name-->
+Category id--> 
+Year--> 
+Picture id--> 19
+Demensions--> 
+Description-->
+Cost-->
 
 
 
