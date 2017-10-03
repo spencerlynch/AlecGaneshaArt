@@ -1,3 +1,4 @@
+
 //Function for data filter on paintings.html
 $(document).ready(function(){
 
@@ -25,3 +26,8 @@ $(this).removeClass("active");
 $(this).addClass("active");
 
 });
+
+
+
+
+
