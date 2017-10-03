@@ -176,10 +176,10 @@ Demensions-->
 Description-->
 Cost-->
 
-David Bowie----------
+David Bowie (2.0)----------
 Name-->
 Category id--> 
-Year--> 
+Year--> 2017
 Picture id--> 17
 Demensions--> 
 Description-->
@@ -202,6 +202,51 @@ Picture id--> 19
 Demensions--> 
 Description-->
 Cost-->
+
+one in front of gun----------
+Name-->
+Category id--> 
+Year--> 
+Picture id--> 20
+Demensions--> 
+Description-->
+Cost-->
+
+Janis----------
+Name-->
+Category id--> 
+Year--> 
+Picture id--> 21
+Demensions--> 
+Description-->
+Cost-->
+
+David Bowie (1.0)----------
+Name-->
+Category id--> 
+Year--> 2016
+Picture id--> 22
+Demensions--> 
+Description-->
+Cost-->
+
+Albert Einstein----------
+Name-->
+Category id--> 
+Year--> 2015
+Picture id--> 23
+Demensions--> 
+Description-->
+Cost-->
+
+
+
+
+
+
+
+
+
 
 
 
