@@ -1,4 +1,4 @@
----------------------Website Art Descriptions----------------------
+---------------------Website Art Descriptions---------------------
 
 Originals for Sale-
 
